@@ -1,0 +1,9 @@
+-js bin/amaze.js
+-main Demo
+-lib sui
+-lib thx.core
+-lib thx.math
+-cp src
+-cp demo
+
+-cmd node bin/amaze.js
