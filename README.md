@@ -1,0 +1,2 @@
+# amaze
+Maze generation lib
