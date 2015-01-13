@@ -1,6 +1,6 @@
 package amaze;
 
-abstract Cell(Side) from Side to Int {
+abstract Cell(Int) from Int to Int {
   public var right(get, set) : Bool;
   public var top(get, set) : Bool;
   public var bottom(get, set) : Bool;
@@ -39,7 +39,7 @@ abstract Cell(Side) from Side to Int {
     return v;
   }
 
-  @:op(A|=B) inline function bitwiseOrAssign(other : Side) : Cell
+  @:op(A|=B) inline function bitwiseOrAssign(other : Int) : Cell
     return this |= other;
 }
 
