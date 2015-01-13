@@ -1,5 +1,6 @@
 -js bin/amaze.js
 -main Demo
+-lib minicanvas
 -lib sui
 -lib thx.core
 -lib thx.math
