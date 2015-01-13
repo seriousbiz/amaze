@@ -10,16 +10,16 @@ abstract Cell(Side) from Side to Int {
     this = value;
 
   inline function get_right() : Bool
-    return Side.right == this & Side.right;
+    return 0 != (this & Side.right);
 
   inline function get_top() : Bool
-    return Side.top == this & Side.top;
+    return 0 != (this & Side.top);
 
   inline function get_bottom() : Bool
-    return Side.bottom == this & Side.bottom;
+    return 0 != (this & Side.bottom);
 
   inline function get_left() : Bool
-    return Side.left == this & Side.left;
+    return 0 != (this & Side.left);
 
 
   inline function set_right(v) : Bool {
