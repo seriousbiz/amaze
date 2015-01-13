@@ -2,6 +2,7 @@
 -js bin/test.js
 -lib utest
 -lib thx.core
+-lib thx.math
 -cp src
 -cp test
 
