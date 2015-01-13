@@ -7,6 +7,7 @@ using thx.core.Strings;
 using thx.math.random.IRandom;
 
 import amaze.Cell;
+import amaze.Side;
 
 class Maze {
   public var width : Int;

@@ -42,11 +42,3 @@ abstract Cell(Int) from Int to Int {
   @:op(A|=B) inline function bitwiseOrAssign(other : Int) : Cell
     return this |= other;
 }
-
-@:enum
-abstract Side(Int) from Int to Int {
-  var top = 1;
-  var right = 2;
-  var bottom = 4;
-  var left = 8;
-}
