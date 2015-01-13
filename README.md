@@ -5,7 +5,7 @@ Maze generation lib.
 Example:
 
 ```haxe
-var maze = new Maze(24, 12, new thx.math.random.PseudoRandom());
+var maze = new Maze(24, 12, new PseudoRandom());
 maze.generate(0, 0);
 trace(maze.toString());
 ```
@@ -27,3 +27,7 @@ _________________________________________________
 | | |  _|_____| |_  |_|  _________| |   |___|  _|
 |___|___________________|_____________|_________|
 ```
+
+Or with canvas:
+
+![maze](https://github.com/seriousbiz/amaze/raw/master/images/maze.png?raw=true "maze")
