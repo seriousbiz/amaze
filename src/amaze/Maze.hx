@@ -4,7 +4,7 @@ import thx.math.random.PseudoRandom;
 
 using thx.core.Ints;
 using thx.core.Strings;
-using thx.math.random.IRandom;
+using thx.math.random.Random;
 
 import amaze.Cell;
 import amaze.Side;
@@ -13,8 +13,8 @@ class Maze {
   public var width : Int;
   public var height : Int;
   public var cells : Array<Array<Cell>>;
-  public var rgen : IRandom;
-  public function new(width : Int, height : Int, rgen : IRandom) {
+  public var rgen : Random;
+  public function new(width : Int, height : Int, rgen : Random) {
     this.width = width;
     this.height = height;
     this.rgen = null == rgen ? new PseudoRandom() : rgen;
