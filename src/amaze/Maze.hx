@@ -2,8 +2,8 @@ package amaze;
 
 import thx.math.random.PseudoRandom;
 
-using thx.core.Ints;
-using thx.core.Strings;
+using thx.Ints;
+using thx.Strings;
 using thx.math.random.Random;
 
 import amaze.Cell;
